@@ -1,0 +1,21 @@
+.Note{
+    border: 1px solid;
+    font-size: 12px;
+    margin: 12px;
+    padding: 10px 30px;
+    border-radius: 6px;
+   
+}
+
+.Notes{
+    margin: auto;
+    width: 70%;
+    padding: 20px;
+    
+    
+}
+
+.Text{
+    font-size: large;
+    font-weight: 400;
+}

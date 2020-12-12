@@ -1,0 +1,13 @@
+.Button {
+    font-size: 16px;
+    margin: 16px;
+    padding: 14px 40px;
+    border-radius: 8px;
+    background-color: rgb(47, 37, 189);
+    color: white;
+}
+
+.Input{
+    height: 40px;
+    width: 30%;
+}

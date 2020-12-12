@@ -1,0 +1,18 @@
+.EditButton {
+    font-size: 12px;
+    margin: 12px;
+    padding: 10px 30px;
+    border-radius: 6px;
+    background-color: rgb(118, 111, 221);
+    color: white;
+}
+
+.DeleteButton {
+    font-size: 12px;
+    margin: 12px;
+    padding: 10px 30px;
+    border-radius: 6px;
+    background-color:  rgb(252, 73, 61);
+    color: white;
+}
+
