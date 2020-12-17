@@ -27,6 +27,10 @@ class App extends Component {
 
   createNoteHandler = () =>{
     
+    if(this.state.text === ''){
+      return alert('Please add a task')
+    }
+
     let newobj = {}
       newobj['id'] =this.state.notes.length ;
       newobj['title'] =this.state.text;
@@ -88,7 +92,7 @@ class App extends Component {
 
   return (
     <div className="App">
-      <Layout addText={this.createTextHandler} addNote={this.createNoteHandler} text={this.state.text}>Add A Note</Layout>
+      <Layout addText={this.createTextHandler} addNote={this.createNoteHandler} text={this.state.text}>Add A Task</Layout>
       <Notes notes={this.state.notes} check = {this.checkHandler} delete = {this.deleteHandler} edit={this.editHandler}></Notes>
     </div>
   );

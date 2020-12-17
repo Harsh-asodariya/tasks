@@ -5,8 +5,10 @@ const layout = (props) =>{
     return(
         
     <div>
-
-        <input className='Input' id='input' type='text'  onChange={props.addText}/>
+        <div className='Task'>
+            My Tasks
+        </div>
+        <input className='Input' id='input' type='text'  onChange={props.addText} placeholder='Enter your task.... '/>
         <button className='Button' onClick={props.addNote}>{props.children}</button>
         
     </div>
